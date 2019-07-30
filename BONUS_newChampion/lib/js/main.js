@@ -7,8 +7,12 @@ newDiv.classList.add("pyke");
 // Adds a new div into main_container(div)
 mainContainer.appendChild(newDiv);
 
-// adds
+// create h2
 const pykeText = document.createElement("h2");
+// create new text
 const newContent = document.createTextNode("pyke, the bloodharbor ripper");
+// append pkyeText first, then new text
 newDiv.appendChild(pykeText);
 pykeText.appendChild(newContent);
+
+const pykeContainer = document.getElementsByClassName("pyke");
